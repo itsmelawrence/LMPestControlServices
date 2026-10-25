@@ -1,0 +1,16 @@
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+
+# Local configuration and dependencies
+.env
+.env.*
+!.env.example
+node_modules/
+.cache/
+
+# Generated browser review images
+preview-*.png
